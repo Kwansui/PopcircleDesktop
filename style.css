@@ -1,0 +1,203 @@
+/*	colours dark -> light going down
+	#36434c
+	#6e8397 
+	#84a6c9
+	#718d98
+	#f2eadf
+*/
+
+div.currentday
+{
+    border-width: 2px;
+	background-color: #efefef;
+	/*
+	color: white;
+	background-color: silver;
+	*/
+}
+
+div.currentday:hover
+{
+	color: white;
+	background-color: #1CADC5;
+}
+
+div.currentmonth
+{
+	color: #555555;
+	background-color: white;
+}
+
+div.currentmonth:hover
+{
+	color: white;
+	background-color: #1CADC5;
+}
+
+div.weekdays div
+{
+	font-weight: bold;
+}
+
+.unchecked li
+{
+	list-style-image: url('icons/unchecked-small.png');
+}
+
+.checked li
+{
+	list-style-image: url('icons/checked-small.png');
+}
+
+.eList li
+{
+	list-style-type: none;
+	font-size: 10pt;
+	font-weight: 600;
+}
+/*
+.eList:nth-child(even)
+{
+	background-color: #f2eadf;
+}
+
+.eList:nth-child(odd)
+{
+	background-color: white;
+}
+*/
+.eDay
+{
+	cursor: pointer;
+}
+.interested
+{
+	color: #555555;
+}
+
+
+
+#budget li
+{
+	list-style-type: none;
+}
+
+#budgetData,.eDetails
+{
+	display: none;
+}
+
+div.tTable
+{
+	display: table;
+}
+
+div.tRow
+{
+	display: table-row;
+}
+
+div.tData
+{
+	display: table-cell;
+	overflow-y: scroll;
+	font-size: 16pt;
+	width: 120px;
+	height: 100px;
+}
+
+div.weekdays .tData
+{
+	width: 120px;
+	height: 25px;
+}
+
+div.tHeader
+{
+	font-weight: bold;
+}
+
+#lightbox
+{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0,.7);
+    text-align: center;
+    display: none;
+	color: white;
+}
+
+#eventDetails
+{
+	text-align: left;
+    margin: 0 auto;
+	margin-top: 20%;
+	-webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow :0 0 25px #111;
+	background-color: white;
+	padding: 10px;
+	width: 35%;
+	color: black;
+}
+
+#lgContainer{
+	background-color: #84a6c9;
+	width: 300px;
+	padding: 25px;
+}
+
+.navbar-fixed-top{
+	background-color: #36434C;
+}
+
+p{
+	color: #F2EADF;
+}
+
+.navbar-fixed-bottom{
+    background:transparent;
+	border: 0px;
+}
+
+h1{
+	margin: 0px;
+}
+
+#body-content{
+	margin-top: 75px;
+}
+
+.col-centered{
+	float:none;
+	margin: 0 auto;
+}
+
+body{
+	padding-top: 65px;
+}
+
+.navbar .nav > li > a{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #1CADC5;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.list-group-item{
+    text-align: left;
+    width: 300px;
+    border-radius: 0px;
+}
+
+.eList li:hover
+{
+	background-color: #718d98;
+}
